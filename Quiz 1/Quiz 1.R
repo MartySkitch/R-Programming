@@ -1,5 +1,5 @@
 #  Quiz 1
-wrkDir<-"D:/Skitch/Code/R/R Programming/Quiz 1"
+wrkDir<-"D:/Skitch/Code/R/R-Programming/Quiz 1"
 setwd(wrkDir)
 
 # Q. 10 Set elements of verctor to 0 if GT 6
