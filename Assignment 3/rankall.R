@@ -54,11 +54,11 @@ rankall <- function(outcome, num = "best") {
   
   result <- do.call("rbind", state.results)
   names(result)[1] <- "state"
-  names(result)[1] <- "hospital"  
+  names(result)[2] <- "hospital"  
   result[4] = NULL
   result[3] = NULL
 
-  names(result)
+  result
   
 }
 
